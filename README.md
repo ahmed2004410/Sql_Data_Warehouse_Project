@@ -44,8 +44,8 @@ To deliver a **robust SQL-based Data Warehouse** that enables accurate reporting
 ---
 
 ## 👨‍💻 Author  
-Developed by [Your Name]  
-🔗 LinkedIn: [Your Profile Link]  
+Developed by Ahmed Anwer
+🔗 LinkedIn: www.linkedin.com/in/ahmed-anwer-fath77  
 📧 Contact: your@email.com  
 
 
