@@ -42,32 +42,29 @@ This project covers:
 - **DrawIO** → Architecture & ERD diagrams.  
 
 ---
-## 📂 Repository Structure
-
 SQL_Data_Warehouse_Project/
 │
-├── datasets/ # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/ # Project documentation and architecture details
-│ ├── etl.drawio # ETL process diagram
-│ ├── data_architecture.drawio # Project architecture diagram
-│ ├── data_catalog.md # Dataset catalog and metadata
-│ ├── data_flow.drawio # Data flow diagram
-│ ├── data_models.drawio # Star schema data model
-│ ├── naming-conventions.md # Naming guidelines
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # ETL process diagram
+│   ├── data_architecture.drawio        # Project architecture diagram
+│   ├── data_catalog.md                 # Dataset catalog and metadata
+│   ├── data_flow.drawio                # Data flow diagram
+│   ├── data_models.drawio              # Star schema data model
+│   ├── naming-conventions.md           # Naming guidelines
 │
-├── scripts/ # SQL scripts for ETL and transformations
-│ ├── bronze/ # Raw data ingestion
-│ ├── silver/ # Cleansed & standardized data
-│ └── gold/ # Business-ready star schema
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Raw data ingestion
+│   ├── silver/                         # Cleansed & standardized data
+│   └── gold/                           # Business-ready star schema
 │
-├── tests/ # Test queries & data quality checks
+├── tests/                              # Test queries & data quality checks
 │
-├── README.md # Project overview and instructions
-├── LICENSE # License information
-├── .gitignore # Ignored files
-└── requirements.txt # Dependencies
-
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information
+├── .gitignore                          # Ignored files
+└── requirements.txt                    # Dependencies
 
 ---
 
