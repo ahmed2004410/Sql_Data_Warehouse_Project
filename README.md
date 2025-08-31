@@ -1,68 +1,63 @@
 # 📊 SQL Data Warehouse Project
+# Data Warehouse and Analytics Project
 
-Welcome to the **SQL Data Warehouse Project** 🚀  
-This project demonstrates how to design and build a **modern data warehouse** following the **Medallion Architecture** (Bronze, Silver, Gold layers) and apply analytics using SQL and BI tools.  
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+This project demonstrates a complete data warehousing and analytics solution, from building a data warehouse to generating actionable insights.  
 
 ---
 
-## 🏗️ Data Architecture (Medallion Layers)
+## 🏗️ Data Architecture
 
-The project is structured using **3 layers**:  
+This project follows the **Medallion Architecture** (Bronze, Silver, Gold):
 
-1. 🥉 **Bronze Layer**  
-   - Stores raw data directly from the source systems (CSV files).  
-   - No transformations, just ingestion for traceability.  
+![Data Architecture](docs/data_architecture.png)
 
-2. 🥈 **Silver Layer**  
-   - Data cleansing, standardization, and normalization.  
-   - Ensures consistency and prepares data for analytics.  
-
-3. 🥇 **Gold Layer**  
-   - Business-ready, analytical models (Star Schema).  
-   - Used for reporting and dashboard creation.  
+1. **Bronze Layer** → Raw data ingestion from CSV files into SQL Server.  
+2. **Silver Layer** → Data cleansing, standardization, and normalization.  
+3. **Gold Layer** → Business-ready data modeled into a **Star Schema** for reporting.
 
 ---
 
 ## 📖 Project Overview
 
-This project covers:  
-- **Data Architecture**: Medallion (Bronze, Silver, Gold).  
-- **ETL Pipelines**: Extract, Transform, Load into SQL Server.  
-- **Data Modeling**: Fact & Dimension tables for analysis.  
-- **Analytics & Reporting**: Insights using SQL queries and BI dashboards.  
+- **Data Architecture**: Modern layered approach (Bronze/Silver/Gold).  
+- **ETL Pipelines**: Extract, transform, load (SQL scripts).  
+- **Data Modeling**: Star schema design with fact & dimension tables.  
+- **Analytics & Reporting**: SQL queries and dashboards for insights.  
+
+🎯 Skills showcased:  
+- SQL Development  
+- Data Engineering  
+- ETL Pipelines  
+- Data Modeling  
+- Data Analytics  
 
 ---
 
-## 🛠️ Tools & Resources
+## 📂 Repository Structure
 
-- **SQL Server Express** → Database engine.  
-- **SSMS (SQL Server Management Studio)** → Query & management tool.  
-- **Power BI** → Dashboards & visualizations.  
-- **Excel & Power Query** → Data preparation.  
-- **DrawIO** → Architecture & ERD diagrams.  
-
----
+```plaintext
 SQL_Data_Warehouse_Project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                           # Raw datasets (ERP and CRM data)
 │
-├── docs/                               # Project documentation and architecture details
+├── docs/                               # Documentation & diagrams
 │   ├── etl.drawio                      # ETL process diagram
 │   ├── data_architecture.drawio        # Project architecture diagram
-│   ├── data_catalog.md                 # Dataset catalog and metadata
+│   ├── data_catalog.md                 # Dataset catalog & metadata
 │   ├── data_flow.drawio                # Data flow diagram
-│   ├── data_models.drawio              # Star schema data model
-│   ├── naming-conventions.md           # Naming guidelines
+│   ├── data_models.drawio              # Star schema model
+│   ├── naming-conventions.md           # Naming rules
 │
-├── scripts/                            # SQL scripts for ETL and transformations
+├── scripts/                            # SQL scripts for ETL
 │   ├── bronze/                         # Raw data ingestion
-│   ├── silver/                         # Cleansed & standardized data
-│   └── gold/                           # Business-ready star schema
+│   ├── silver/                         # Cleaned & transformed data
+│   └── gold/                           # Star schema ready data
 │
 ├── tests/                              # Test queries & data quality checks
 │
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information
+├── README.md                           # Project overview
+├── LICENSE                             # License info
 ├── .gitignore                          # Ignored files
 └── requirements.txt                    # Dependencies
 
