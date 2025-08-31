@@ -47,17 +47,27 @@ This project covers:
 
 SQL_Data_Warehouse_Project/
 │
-├── datasets/ # Raw CSV datasets (ERP & CRM)
-├── docs/ # Documentation, diagrams, ERDs
-├── scripts/ # SQL scripts (ETL + modeling)
-│ ├── bronze/ # Raw layer (ingestion)
-│ ├── silver/ # Cleansed layer
-│ └── gold/ # Business-ready layer
-├── tests/ # Validation SQL queries
-├── README.md # Project documentation
-└── LICENSE # License file
-
-نسخ الكو
+├── datasets/ # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/ # Project documentation and architecture details
+│ ├── etl.drawio # ETL process diagram
+│ ├── data_architecture.drawio # Project architecture diagram
+│ ├── data_catalog.md # Dataset catalog and metadata
+│ ├── data_flow.drawio # Data flow diagram
+│ ├── data_models.drawio # Star schema data model
+│ ├── naming-conventions.md # Naming guidelines
+│
+├── scripts/ # SQL scripts for ETL and transformations
+│ ├── bronze/ # Raw data ingestion
+│ ├── silver/ # Cleansed & standardized data
+│ └── gold/ # Business-ready star schema
+│
+├── tests/ # Test queries & data quality checks
+│
+├── README.md # Project overview and instructions
+├── LICENSE # License information
+├── .gitignore # Ignored files
+└── requirements.txt # Dependencies
 ---
 
 ## 📊 Analytics & Reporting
