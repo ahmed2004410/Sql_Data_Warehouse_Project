@@ -50,16 +50,14 @@ SQL_Data_Warehouse_Project/
 ├── datasets/ # Raw CSV datasets (ERP & CRM)
 ├── docs/ # Documentation, diagrams, ERDs
 ├── scripts/ # SQL scripts (ETL + modeling)
-│ ├── bronze/
-│ ├── silver/
-│ └── gold/
+│ ├── bronze/ # Raw layer (ingestion)
+│ ├── silver/ # Cleansed layer
+│ └── gold/ # Business-ready layer
 ├── tests/ # Validation SQL queries
 ├── README.md # Project documentation
 └── LICENSE # License file
 
-yaml
-نسخ الكود
-
+نسخ الكو
 ---
 
 ## 📊 Analytics & Reporting
