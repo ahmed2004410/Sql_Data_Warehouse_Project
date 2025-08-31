@@ -42,7 +42,6 @@ This project covers:
 - **DrawIO** → Architecture & ERD diagrams.  
 
 ---
-
 ## 📂 Repository Structure
 
 SQL_Data_Warehouse_Project/
@@ -68,6 +67,8 @@ SQL_Data_Warehouse_Project/
 ├── LICENSE # License information
 ├── .gitignore # Ignored files
 └── requirements.txt # Dependencies
+
+
 ---
 
 ## 📊 Analytics & Reporting
