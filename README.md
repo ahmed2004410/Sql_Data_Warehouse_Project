@@ -60,7 +60,7 @@ SQL_Data_Warehouse_Project/
 ├── LICENSE                             # License info
 ├── .gitignore                          # Ignored files
 └── requirements.txt                    # Dependencies
-
+```
 ---
 
 ## 📊 Analytics & Reporting
