@@ -135,4 +135,6 @@ Use Feedback & Ratings to enhance product quality.
 I’m Ahmed Anwer Fath 👋
 📌 Passionate about Data Warehousing, ETL, SQL Development, and Business Intelligence.
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-anwer-fath77) - 🖥️ [GitHub](https://github.com/ahmed2004410) --- ## 🛡️ License This project is licensed under the **MIT License**. You are free to use, modify, and share with proper attribution.
+- 🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-anwer-fath77)
+- 🖥️ [GitHub](https://github.com/ahmed2004410) ---
+-  ## 🛡️ License This project is licensed under the **MIT License**. You are free to use, modify, and share with proper attribution.
