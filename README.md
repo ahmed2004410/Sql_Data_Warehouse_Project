@@ -1,47 +1,45 @@
-📊 SQL Data Warehouse & Analytics Dashboard Project
+# 📊 SQL Data Warehouse & Analytics Dashboard Project  
 
-Welcome to the Data Warehouse and Analytics Project repository! 🚀
-This project demonstrates a complete data warehousing and business intelligence solution, starting from building a Data Warehouse to creating interactive Power BI dashboards that generate actionable insights.
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+This project demonstrates a complete **data warehousing and business intelligence solution**, starting from building a Data Warehouse to creating interactive **Power BI dashboards** that generate actionable insights.  
 
-🏗️ Data Architecture
+---
 
-The project follows the Medallion Architecture (Bronze, Silver, Gold):
+## 🏗️ Data Architecture  
 
-Bronze Layer → Raw data ingestion from ERP & CRM systems.
+The project follows the **Medallion Architecture** (Bronze, Silver, Gold):  
 
-Silver Layer → Data cleansing, transformations, and normalization.
+![Data Architecture](docs/data_architecture.png)  
 
-Gold Layer → Business-ready data modeled into a Star Schema, used as the single source of truth for reporting.
+1. **Bronze Layer** → Raw data ingestion from **ERP & CRM systems**.  
+2. **Silver Layer** → Data cleansing, transformations, and normalization.  
+3. **Gold Layer** → Business-ready data modeled into a **Star Schema**, used as the single source of truth for reporting.  
 
-Main Source Tables:
+**Main Source Tables:**  
+- CRM: `crm_sales_details`, `crm_prd_info`, `crm_cust_info`  
+- ERP: `erp_px_cat_g1v2`, `erp_cst_az12`, `erp_loc_a101`  
 
-CRM: crm_sales_details, crm_prd_info, crm_cust_info
+---
 
-ERP: erp_px_cat_g1v2, erp_cst_az12, erp_loc_a101
+## 📖 Project Overview  
 
-📖 Project Overview
+- **Data Architecture**: Modern layered approach (Bronze/Silver/Gold).  
+- **ETL Pipelines**: SQL-based extraction, transformation, and loading.  
+- **Data Modeling**: Star schema design with fact & dimension tables.  
+- **Analytics & Reporting**: Power BI dashboards with interactive KPIs.  
 
-Data Architecture: Modern layered approach (Bronze/Silver/Gold).
+🎯 **Skills showcased**:  
+- SQL Development  
+- ETL Pipelines  
+- Data Modeling (Star Schema)  
+- Data Analytics (KPIs & Metrics)  
+- Business Intelligence with Power BI  
 
-ETL Pipelines: SQL-based extraction, transformation, and loading.
+---
 
-Data Modeling: Star schema design with fact & dimension tables.
+## 📂 Repository Structure  
 
-Analytics & Reporting: Power BI dashboards with interactive KPIs.
-
-🎯 Skills showcased:
-
-SQL Development
-
-ETL Pipelines
-
-Data Modeling (Star Schema)
-
-Data Analytics (KPIs & Metrics)
-
-Business Intelligence with Power BI
-
-📂 Repository Structure
+```plaintext
 SQL_Data_Warehouse_Project/
 │
 ├── datasets/                           # Raw ERP & CRM datasets
@@ -53,6 +51,10 @@ SQL_Data_Warehouse_Project/
 │   ├── data_flow.drawio                # Data flow diagram
 │   ├── data_models.drawio              # Star schema model
 │   ├── dashboard_documentation.docx    # Power BI dashboard documentation
+│   └── screenshots/                    # Dashboard screenshots
+│       ├── overview.png
+│       ├── sales.png
+│       └── customers.png
 │
 ├── scripts/                            # SQL scripts for ETL
 │   ├── bronze/                         # Raw data ingestion
@@ -65,8 +67,9 @@ SQL_Data_Warehouse_Project/
 │
 ├── README.md                           # Project overview
 └── requirements.txt                    # Dependencies
-📊 Analytics & Reporting
+```
 
+📊 Analytics & Reporting
 The Power BI dashboard consists of 4 interactive pages:
 
 Home Page → Navigation & description of report pages.
@@ -78,18 +81,13 @@ Sales Page → Metrics on sales, units sold, top products, demographics, and yea
 Customers Page → Customer activity, demographics, segmentation, and retention metrics.
 
 🔹 Dashboard Screenshots
-
 Overview Page
-
 
 Sales Page
 
-
 Customers Page
 
-
-🔹 Key KPIs:
-
+🔹 Key KPIs
 Total Sales & Units Sold
 
 Average Order Price
@@ -104,20 +102,32 @@ Sales by Gender & Marital Status
 
 Sales Trend per Year
 
-🔹 Recommendations Extracted:
+🔹 Recommendations
+Customers:
 
-Build Retention Plans for inactive customers.
+Develop a Retention Plan for inactive customers.
 
-Focus on active age groups in marketing campaigns.
+Focus on most active age groups in campaigns.
 
-Launch Loyalty Programs for high-frequency customers.
+Launch a Loyalty Program for high-frequency customers.
 
-Monitor stock for top-selling products.
+Sales:
 
-Leverage seasonal peaks with pre-planned promotions.
+Monitor inventory for Top 10 products.
+
+Create Targeted Marketing Campaigns by gender & marital status.
+
+Leverage Seasonal Sales Peaks with pre-planned promotions.
+
+General:
+
+Benchmark KPIs against strategic targets.
+
+Prepare monthly monitoring reports.
+
+Use Feedback & Ratings to enhance product quality.
 
 🌐 Connect with Me
-
 I’m Ahmed Anwer Fath 👋
 📌 Passionate about Data Warehousing, ETL, SQL Development, and Business Intelligence.
 
@@ -126,6 +136,5 @@ I’m Ahmed Anwer Fath 👋
 🖥️ GitHub
 
 🛡️ License
-
 This project is licensed under the MIT License.
 You are free to use, modify, and share with proper attribution.
