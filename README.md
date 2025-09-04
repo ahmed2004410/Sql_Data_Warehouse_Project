@@ -80,14 +80,15 @@ Sales Page → Metrics on sales, units sold, top products, demographics, and yea
 
 Customers Page → Customer activity, demographics, segmentation, and retention metrics.
 
-🔹 Dashboard Screenshots
-![Overview Page](Docs/Data_architecture.png)  
+## Dashboard Screenshots
+🔹  Overview
+![Overview Page](Dashboard/Overview.png)  
 
+🔹 Sales
+![Sales Page](Dashboard/Sales.png)  
 
-![Sales Page](Docs/Data_architecture.png)  
-
-
-![Customers Page](Docs/Data_architecture.png)  
+🔹 Customer
+![Customers Page](Dashboard/Customer.png)  
 
 
 🔹 Key KPIs
