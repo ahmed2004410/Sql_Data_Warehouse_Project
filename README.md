@@ -9,7 +9,7 @@ This project demonstrates a complete **data warehousing and business intelligenc
 
 The project follows the **Medallion Architecture** (Bronze, Silver, Gold):  
 
-![Data Architecture](docs/data_architecture.png)  
+![Data Architecture](Docs/Data_architecture.png)  
 
 1. **Bronze Layer** → Raw data ingestion from **ERP & CRM systems**.  
 2. **Silver Layer** → Data cleansing, transformations, and normalization.  
