@@ -85,7 +85,7 @@ Customers Page → Customer activity, demographics, segmentation, and retention 
 ![Overview Page](Dashboard/over_view.png)  
 
 🔹 Sales
-![Sales Page](Dashboard/Sales.png)  
+![Sales Page](Dashboard/sales.png)  
 
 🔹 Customer
 ![Customers Page](Dashboard/Customer.png)  
